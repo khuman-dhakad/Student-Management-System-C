@@ -1,24 +1,23 @@
 # 📘 Student Management System (C Language)
 
-A simple console-based **Student Management System** built using the C programming language.
+A console-based **Student Management System** built using the C programming language with file handling.
 
-This project is part of my learning journey as I strengthen my programming fundamentals and improve my problem-solving skills.
+This project is part of my learning journey to strengthen my programming fundamentals and build real-world logic using C.
 
 ---
 
 ## 🚀 About This Project
 
-This system allows users to manage student records using file handling and structures in C.
+This system allows users to manage student records efficiently through a menu-driven interface.
 
-It is fully menu-driven and runs in the terminal.
+The program stores data using file handling, ensuring persistence even after the program closes.
 
-I built this project to practice:
-- Functions
-- Structures
-- File Handling
-- Arrays
-- Loops & Conditional Statements
-- Logic Building
+This project helped me deeply understand:
+- Structured Programming
+- Data Management Logic
+- CRUD Operations
+- File Handling in C
+- Modular Code Design
 
 ---
 
@@ -29,16 +28,17 @@ I built this project to practice:
 ✔ Search Student by Roll Number  
 ✔ Update Student Details  
 ✔ Delete Student  
-✔ Data Stored in File (Record.txt)
+✔ Data Persistence using File Handling  
 
 ---
 
 ## 🛠 Technologies Used
 
 - C Programming Language
-- File Handling
 - Structures
 - Arrays
+- Functions
+- File Handling (fopen, fscanf, fprintf)
 - GCC Compiler
 
 ---
@@ -49,22 +49,53 @@ I built this project to practice:
 Student-Management-System-C/
 │
 ├── student_management.c
-├── Record.txt
-└── README.md
+├── README.md
+```
+
+> ⚠ Note:  
+> The program automatically creates `Record.txt` when executed if it does not exist.  
+> Make sure to run the program in the same directory as the source file.
+
+---
+
+## ⚙ How to Run
+
+```bash
+gcc student_management.c -o student_management
+./student_management
+```
+
+On Windows:
+
+```bash
+gcc student_management.c -o student_management.exe
+student_management.exe
 ```
 
 ---
 
 ## 🎯 Learning Goal
 
-I am currently learning C and Data Structures.  
-This project is part of my consistent daily practice.
+I am currently learning C and Data Structures as part of my MCA curriculum and placement preparation.
 
-My goal is to:
-- Build strong programming fundamentals
-- Improve problem-solving ability
-- Prepare for technical interviews
-- Become placement ready
+Through this project, I focused on:
+
+- Writing clean modular code  
+- Building logical thinking  
+- Understanding file-based data storage  
+- Practicing consistent coding  
+
+My goal is to become placement-ready and build strong software development fundamentals.
+
+---
+
+## 📈 Future Improvements
+
+- Add Sorting Feature  
+- Add Search by Name  
+- Add Input Validation Enhancements  
+- Convert to Dynamic Memory Version  
+- Build GUI Version  
 
 ---
 
@@ -73,12 +104,12 @@ My goal is to:
 **Khuman Dhakad**  
 MCA Student  
 Aspiring Software Developer  
-Consistent Learner 🚀
+Consistent Learner 🚀  
 
 ---
 
-## ⭐ Note
+## ⭐ Final Note
 
-This project may be simple, but it represents consistent effort and continuous improvement in my coding journey.
+This project represents consistent practice and continuous improvement in my coding journey.
 
-More projects coming soon!
+More structured projects and data structure implementations coming soon.
