@@ -99,3 +99,12 @@ My goal is to become placement-ready and build strong software development funda
 
 ---
 
+## 👨‍💻 Author
+
+**Khuman Dhakad**  
+MCA Student  
+Aspiring Software Developer  
+Consistent Learner 🚀  
+
+---
+
